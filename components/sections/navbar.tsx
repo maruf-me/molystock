@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, BarChart3 } from "lucide-react";
 import { useAppStore } from "@/store/use-app-store";
+import Image from "next/image";
 
 const navLinks = [
   { href: "#features", label: "Features" },
@@ -26,12 +27,18 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-8 h-8 rounded-lg bg-[#4a6cf7] flex items-center justify-center glow-blue-sm">
+            <Image
+              src="/logo.svg"
+              alt="MolyStock Logo"
+              width={132}
+              height={32}
+            />
+            {/* <div className="w-8 h-8 rounded-lg bg-[#4a6cf7] flex items-center justify-center glow-blue-sm">
               <BarChart3 className="w-4.5 h-4.5 text-white" strokeWidth={2.5} />
             </div>
             <span className="text-white font-bold text-xl tracking-tight">
               Moly<span className="text-[#4a6cf7]">Stock</span>
-            </span>
+            </span> */}
           </Link>
 
           {/* Desktop Nav */}

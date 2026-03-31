@@ -1,22 +1,37 @@
 import {
   CheckCircle2,
-  LayoutDashboard,
-  TrendingUp,
-  BarChart3,
-  Bell,
-  Users,
+  Package,
+  Receipt,
+  ShoppingCart,
+  Warehouse,
+  Clock,
+  Wallet,
+  UserCheck,
+  MessageSquare,
+  FileBarChart,
   Zap,
-  Shield,
 } from "lucide-react";
 
+// const features = [
+//   { icon: LayoutDashboard, label: "Unified Dashboard" },
+//   { icon: TrendingUp, label: "Real-Time Portfolio Tracking" },
+//   { icon: BarChart3, label: "Advanced Market Analytics" },
+//   { icon: Bell, label: "Intelligent Price Alerts" },
+//   { icon: Users, label: "Team Collaboration Tools" },
+//   { icon: Zap, label: "Automated Trading Signals" },
+//   { icon: Shield, label: "Bank-Grade Security" },
+// ];
+
 const features = [
-  { icon: LayoutDashboard, label: "Unified Dashboard" },
-  { icon: TrendingUp, label: "Real-Time Portfolio Tracking" },
-  { icon: BarChart3, label: "Advanced Market Analytics" },
-  { icon: Bell, label: "Intelligent Price Alerts" },
-  { icon: Users, label: "Team Collaboration Tools" },
-  { icon: Zap, label: "Automated Trading Signals" },
-  { icon: Shield, label: "Bank-Grade Security" },
+  { icon: Package, label: "Product Management" },
+  { icon: Receipt, label: "POS" },
+  { icon: ShoppingCart, label: "Purchase Management" },
+  { icon: Warehouse, label: "Stock Management" },
+  { icon: Clock, label: "Due Management" },
+  { icon: Wallet, label: "Accounts & Cash Flow" },
+  { icon: UserCheck, label: "HRM & Payroll" },
+  { icon: MessageSquare, label: "SMS Marketing" },
+  { icon: FileBarChart, label: "Reports Center" },
 ];
 
 export default function FeaturesOverview() {

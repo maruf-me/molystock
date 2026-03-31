@@ -13,6 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/brand.png",
+    apple: "/apple-touch-icon.png",
+  },
   title: "MolyStock — Run Your Entire Business From One Smart Dashboard",
   description:
     "MolyStock helps business owners and traders manage their entire operation from a single, intelligent dashboard. Real-time data, AI insights, and powerful analytics.",
